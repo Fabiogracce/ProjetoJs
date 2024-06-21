@@ -1,0 +1,29 @@
+body{
+    background-color: rgba(77, 74, 74, 0.658);/* Cor do plano de fundo */
+    color:#000; /* Cor da fonte */
+    font-size: 20px; /* Tamanho da Fonte */
+    margin: 0;  /*margem em relação a tela */
+    background-image: url("../imagem/foto2.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+}/* Comentários */
+
+.botoes, li{
+    color:#fff;
+    list-style-type: none;/*Remover as bolinhas dos topicos */
+    display: inline; /* Transformar coluna em linha */
+    border: 2px solid #000;
+    padding: 20px;
+    background-color:#000;
+}
+
+a{
+    text-decoration: none;
+    border: 2px solid #000; /* Bordas */
+    margin-top: 0%; /* Espaço Externo */
+    padding: 3%; /*Espaço Interno*/
+    background-color:#000;
+    color: #fff;
+    font-size: 130%;
+}

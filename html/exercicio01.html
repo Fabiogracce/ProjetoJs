@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="../JavaScript/exercicio01.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        
+        <h1 class="titulo">Exercício01</h1>
+        <nav>
+            <ul>
+                <a class="botoesMenu" href="index.html"><li id="paginaInicial">Página Inicial</li></a>
+                
+            </ul><!-- Colocar em tópicos -->
+        </nav><!-- Menu -->
+    </header>
+    <form>
+        <aside><!-- Conteúdo da página -->
+            <p>
+                Para saber se o seu ano é bissexto infome sua data de nascimento.<br>
+            </p>
+        </aside>
+    </form>
+    <form>
+        <label>Informe a Data: </label>
+        <input type="number" name="ano" id="ano">
+        <br>
+    </form>
+    <textArea id="res" rows="10" cols="40" readonly></textArea><br>
+    <button type="submit" onclick="bissexto()">Verificar</button><br>
+    
+</body>
+</html>
